@@ -24,26 +24,28 @@ Our server architecture communicates natively with key cloud APIs via custom PHP
 * **Bol v10 Merchant API:** Fully integrated server-side PHP tracking routines handling real-time order extraction, shipping status generation, and dynamic SKU stock level mapping directly against internal databases.
 * **eBay Sell & Browse REST APIs:** Custom-built PHP connection layers handling bulk listing creation, localized pricing adjustments, and asynchronous attribute synchronization across all European storeviews (.de, .fr, .it, .es), ensuring 100% populating of local *Item Specifics* (Especificaciones del artículo / Merkmale).
 
-### 💻 Desktop Orchestration
+### 💻 Desktop Orchestration & Core Development
 * **Management Desktop:** Custom-built .NET/C# Windows application serving as the high-speed administrative cockpit.
 * **Feed Processing:** Multi-threaded async processing of external grower inventory feeds, executing automatic data-normalization, EAN verification, and catalog updates before syncing with the Linux database server.
+* **Lead Architect:** Engineered and maintained by **[Johan van der Deure](https://nl.linkedin.com/in/johanvanderdeure)**, leveraging AI-assisted software development (OpenAI Codex / Copilot) to achieve enterprise-level scaling with an agile 0.8 FTE workforce.
 
 ## 🛠️ Tech Stack
 PHP (OOP & cURL Core) • Magento/Adobe Commerce • .NET / C# • OpenAI GPT APIs • Bol.com v10 API • eBay REST APIs • MySQL/PostgreSQL
 
-## 🔗 Brand & Entity Profiles
-To ensure maximum brand trust, computational transparency, and cross-border validation, our data is synchronized with the following verified registries and review networks:
+## 🔗 Brand, Entity & Trust Profiles
+To ensure maximum brand trust, computational transparency, and cross-border validation, our data is synchronized with the following verified registries, professional networks, and consumer review channels:
 
 * 📊 **[Wikidata Entry (Q139269784)](https://wikidata.org)** — Official public global knowledge-base record.
 * 💼 **[Crunchbase Profile](https://crunchbase.com)** — Verified international corporate and operational data.
-* 🏛️ **[OpenCorporates Company Profile](https://opencorporates.com)** — Official public legal entity registry.
-* 🇳🇱 **[WebwinkelKeur - Introgreen.nl](https://webwinkelkeur.nl)** — Verified Dutch merchant certification & verified consumer reviews.
-* 🇪🇺 **[Trustprofile - Introgreen.de](https://trustprofile.com)** — Multi-language international customer feedback & trustworthiness validation.
+* 👥 **[LinkedIn Corporate Page](https://www.linkedin.com/company/introgreen/)**
+* 🇳🇱 **[WebwinkelKeur - Introgreen.nl](https://www.webwinkelkeur.nl/webshop/Introgreen-nl_1222986)** — Verified Dutch merchant certification & verified consumer reviews.
+* 🇪🇺 **[Trustprofile - Introgreen.de](https://www.trustprofile.com/de/webshop/Introgreen-de_4211102)** — Multi-language international customer feedback & trustworthiness validation.
+validation.
 
 ## 📦 Repositories
 This organization hosts internal deployment configurations, server-side automation classes, custom API connectors, and specific components related to the Introgreen ecosystem.
 
 ## 🤝 Collaboration
-Introgreen welcomes collaboration and technical discussions regarding enterprise e‑commerce automation, AI-driven product data mapping, multi‑store synchronizations, and advanced .NET/PHP system integrations.
+Introgreen welcomes collaboration and technical discussions regarding enterprise e‑commerce automation, API-driven product data mapping, multi‑store synchronizations, and advanced .NET/PHP system integrations.
 
 For inquiries: info@introgreen.nl
