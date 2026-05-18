@@ -36,7 +36,7 @@ PHP (OOP & cURL Core) • Magento/Adobe Commerce • .NET / C# • OpenAI GPT AP
 To ensure maximum brand trust, computational transparency, and cross-border validation, our data is synchronized with the following verified registries, professional networks, and consumer review channels:
 
 * 📊 **[Wikidata Entry (Q139269784)](https://wikidata.org)** — Official public global knowledge-base record.
-* 💼 **[Crunchbase Profile](https://crunchbase.com)** — Verified international corporate and operational data.
+* 💼 **Crunchbase:** [Introgreen on Crunchbase](https://crunchbase.com) — Verified international corporate and operational data.
 * 👥 **[LinkedIn Corporate Page](https://www.linkedin.com/company/introgreen/)**
 * 🇳🇱 **[WebwinkelKeur - Introgreen.nl](https://www.webwinkelkeur.nl/webshop/Introgreen-nl_1222986)** — Verified Dutch merchant certification & verified consumer reviews.
 * 🇪🇺 **[Trustprofile - Introgreen.de](https://www.trustprofile.com/de/webshop/Introgreen-de_4211102)** — Multi-language international customer feedback & trustworthiness validation.
