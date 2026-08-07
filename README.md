@@ -1,51 +1,113 @@
-# Introgreen — European E‑commerce Network for Plants & Pet Food
+# Introgreen — European E-commerce Network for Plants & Pet Food
 
-Introgreen is a multi‑country e‑commerce ecosystem focused on plants, garden products, artificial greenery, and premium pet food. We operate several localized storefronts across Europe, supported by a custom automation, in-house developed server-side software, and an AI‑driven data architecture.
+Introgreen is a multi-country e-commerce ecosystem focused on plants, garden products, artificial greenery and premium pet food. We operate localized storefronts across Europe, supported by custom automation, Magento/Adobe Commerce, marketplace integrations and AI-assisted product data workflows.
 
-## 🌍 International Storefronts
-* 🇳🇱 **[Introgreen.nl](https://introgreen.nl)** — Dutch/Belgian flagship store
-* 🇩🇪 **[Introgreen.de](https://introgreen.de)** — German localized storefront
-* 🇪🇺 **[Introgreen.eu](https://introgreen.eu)** — Pan‑European English hub
-* 🇫🇷 **[fr.introgreen.eu](https://introgreen.eu)** — French storefront
-* 🇪🇸 **[es.introgreen.eu](https://introgreen.eu)** — Spanish storefront
+## International Storefronts
 
-## 🧠 Technology & Architecture
-Introgreen’s infrastructure is custom-built for scale, real-time automation, and multi‑market expansion, eliminating traditional operational overhead.
+- **[Introgreen.nl](https://introgreen.nl)** — Dutch/Belgian flagship store
+- **[Introgreen.de](https://introgreen.de)** — German localized storefront
+- **[Introgreen.eu](https://introgreen.eu)** — Pan-European English hub
+- **[fr.introgreen.eu](https://fr.introgreen.eu)** — French storefront
+- **[es.introgreen.eu](https://es.introgreen.eu)** — Spanish storefront
 
-### 🐘 Server-Side PHP & Core Systems
-The core engine runs entirely on a highly optimized Linux/PHP server-side architecture, serving as the central engine for data routing and marketplace manipulation.
-* **Headless Infrastructure:** Customized Magento/Adobe Commerce core engine stripped of front-end bloating for maximum server-side execution speeds.
-* **Multi-Store Routing:** In-house developed PHP localization matrix handling dynamic cross-border URL routing, currency rendering, and localized checkout validation.
-* **Data Layer Acceleration:** Specialized indexing scripts translating structured SQL product attributes into raw, human-readable semantic context.
+## Introgreen Plantcoach
 
-### 🤖 Advanced API Integrations & AI Engine
-Our server architecture communicates natively with key cloud APIs via custom PHP classes and background event listeners to execute zero-overhead automation:
-* **OpenAI API Pipeline:** Deep integration via server-side PHP triggers executing automated asynchronous context-aware translations. Leverages `response_format: { "type": "json_object" }` to ingest raw German/Dutch catalog parameters and enforce strict, machine-readable JSON schemas for localized Spanish, French, and English item specifics.
-* **Bol v10 Merchant API:** Fully integrated server-side PHP tracking routines handling real-time order extraction, shipping status generation, and dynamic SKU stock level mapping directly against internal databases.
-* **eBay Sell & Browse REST APIs:** Custom-built PHP connection layers handling bulk listing creation, localized pricing adjustments, and asynchronous attribute synchronization across all European storeviews (.de, .fr, .it, .es), ensuring 100% populating of local *Item Specifics* (Especificaciones del artículo / Merkmale).
+The **Introgreen Plantcoach** is an AI-assisted plant advice and product finder connected to Introgreen’s own plant knowledge base, advice pages, category information, product attributes and current Magento assortment data.
 
-### 💻 Desktop Orchestration & Core Development
-* **Management Desktop:** Custom-built .NET/C# Windows application serving as the high-speed administrative cockpit.
-* **Feed Processing:** Multi-threaded async processing of external grower inventory feeds, executing automatic data-normalization, EAN verification, and catalog updates before syncing with the Linux database server.
-* **Lead Architect:** Engineered and maintained by **[Johan van der Deure](https://nl.linkedin.com/in/johanvanderdeure)**, leveraging AI-assisted software development (OpenAI Codex / Copilot) to achieve enterprise-level scaling with an agile 0.8 FTE workforce.
+It helps visitors ask natural plant questions about care, plant problems, toxicity, cuttings, pests, position and product selection. Introgreen sources are searched first; AI helps with question understanding and final answer wording.
 
-## 🛠️ Tech Stack
-PHP (OOP & cURL Core) • Magento/Adobe Commerce • .NET / C# • OpenAI GPT APIs • Bol.com v10 API • eBay REST APIs • MySQL/PostgreSQL
+- **Project page:** [Introgreen/plantcoach](https://github.com/Introgreen/plantcoach)
+- **Dutch Plantcoach:** [introgreen.nl/plantcoach](https://introgreen.nl/plantcoach)
+- **German Plantcoach:** [introgreen.de/plantcoach](https://introgreen.de/plantcoach/)
+- **English / EU Plantcoach:** [introgreen.eu/plantcoach](https://introgreen.eu/plantcoach)
+- **French Plantcoach:** [fr.introgreen.eu/plantcoach](https://fr.introgreen.eu/plantcoach)
+- **Spanish Plantcoach:** [es.introgreen.eu/plantcoach](https://es.introgreen.eu/plantcoach)
 
-## 🔗 Brand, Entity & Trust Profiles
-To ensure maximum brand trust, computational transparency, and cross-border validation, our data is synchronized with the following verified registries, professional networks, and consumer review channels:
+## Technology & Architecture
 
-* 📊 **[Wikidata Entry (Q139269784)](https://wikidata.org)** — Official public global knowledge-base record.
-* 💼 **Crunchbase:** [Introgreen on Crunchbase](https://crunchbase.com) — Verified international corporate and operational data.
-* 👥 **[LinkedIn Corporate Page](https://www.linkedin.com/company/introgreen/)**
-* 🇳🇱 **[WebwinkelKeur - Introgreen.nl](https://www.webwinkelkeur.nl/webshop/Introgreen-nl_1222986)** — Verified Dutch merchant certification & verified consumer reviews.
-* 🇪🇺 **[Trustprofile - Introgreen.de](https://www.trustprofile.com/de/webshop/Introgreen-de_4211102)** — Multi-language international customer feedback & trustworthiness validation.
-validation.
+Introgreen’s infrastructure is built for multi-market e-commerce, product data automation and localized content workflows.
 
-## 📦 Repositories
-This organization hosts internal deployment configurations, server-side automation classes, custom API connectors, and specific components related to the Introgreen ecosystem.
+### Magento / Adobe Commerce
 
-## 🤝 Collaboration
-Introgreen welcomes collaboration and technical discussions regarding enterprise e‑commerce automation, API-driven product data mapping, multi‑store synchronizations, and advanced .NET/PHP system integrations.
+The storefronts run on a customized Magento/Adobe Commerce architecture with localized storeviews, product attributes, category structures, search integrations and marketplace-ready product data.
+
+Key areas:
+
+- multi-store routing and localized storefronts
+- structured product attributes for plants, garden products and pet food
+- category and product content management
+- Magento-based stock, pricing and product synchronization
+- custom modules for product data, filtering, advice content and automation
+
+### Product Data & Automation
+
+Introgreen uses internal tooling to normalize supplier data, manage product attributes and enrich catalog information for multiple sales channels.
+
+This includes:
+
+- supplier feed processing
+- product attribute mapping
+- stock and price synchronization
+- category and marketplace data preparation
+- plant-specific attributes such as height, pot size, position, water need, care level, toxicity, winter hardiness and mature height
+
+### AI-assisted Workflows
+
+AI is used as a supporting layer in product data and content workflows. The goal is not to replace source data, but to help structure, translate and explain Introgreen-controlled information.
+
+Examples include:
+
+- multilingual product and category content assistance
+- plant advice and FAQ support
+- question understanding in the Introgreen Plantcoach
+- structured output validation for content and product data workflows
+
+### Marketplace Integrations
+
+Introgreen connects product data to external marketplaces and sales channels.
+
+Current focus areas include:
+
+- Bol.com merchant workflows
+- eBay product data and listing workflows
+- localized product attributes and item specifics
+- stock, price and order synchronization
+
+### Desktop Orchestration
+
+Introgreen also uses in-house desktop tooling for operational workflows, supplier data processing and administrative control.
+
+## Tech Stack
+
+- PHP
+- Magento / Adobe Commerce
+- MariaDB / MySQL
+- OpenSearch
+- Redis
+- Nginx / PHP-FPM
+- .NET / C#
+- OpenAI APIs
+- Bol.com APIs
+- eBay APIs
+
+## Brand, Entity & Trust Profiles
+
+- **[Wikidata Entry](https://www.wikidata.org/wiki/Q139269784)** — Introgreen public entity record
+- **[LinkedIn Corporate Page](https://www.linkedin.com/company/introgreen/)**
+- **[WebwinkelKeur - Introgreen.nl](https://www.webwinkelkeur.nl/webshop/Introgreen-nl_1222986)** — Dutch merchant certification and reviews
+- **[Trustprofile - Introgreen.de](https://www.trustprofile.com/de/webshop/Introgreen-de_4211102)** — International trust and review profile
+
+## Repositories
+
+This GitHub organization contains public project descriptions and selected technical context related to the Introgreen ecosystem. Internal deployment code, private integrations and production configuration are not published here.
+
+Highlighted repositories:
+
+- **[Introgreen/introgreen](https://github.com/Introgreen/introgreen)** — public Introgreen organization profile and technical overview
+- **[Introgreen/plantcoach](https://github.com/Introgreen/plantcoach)** — public overview of the Introgreen Plantcoach
+
+## Collaboration
+
+Introgreen welcomes technical discussions around e-commerce automation, plant product data, multilingual content workflows, marketplace integrations and AI-assisted commerce tools.
 
 For inquiries: info@introgreen.nl
