@@ -27,6 +27,28 @@ It helps visitors ask natural plant questions about care, plant problems, toxici
 
 Introgreen’s infrastructure is built for multi-market e-commerce, product data automation and localized content workflows.
 
+## Introgreen AI Plant Finder
+
+The **Introgreen AI Plant Finder** is a multilingual plant recommendation tool that helps visitors find suitable plants for their living room, bedroom, office or other indoor spaces.
+
+A new beta feature allows users to upload a photo of their room and select a specific location where they want to place a plant.
+
+AI-assisted image analysis provides visual context, while additional questions help determine lighting conditions, available space, pet safety and maintenance preferences.
+
+The Plant Finder combines this information with Introgreen's structured plant knowledge, Magento 2 product attributes and current product availability to recommend suitable plants from the assortment.
+
+**Project documentation:**
+- [Introgreen/plant-finder](https://github.com/Introgreen/plant-finder)
+
+**Try the Plant Finder:**
+- [Dutch Plantenkiezer](https://introgreen.nl/plantenkiezer)
+- [German Pflanzenfinder](https://introgreen.de/pflanzenfinder)
+- [English Plant Finder](https://introgreen.eu/plant-finder)
+- [French Sélecteur de plantes](https://fr.introgreen.eu/selecteur-de-plantes)
+- [Spanish Selector de plantas](https://es.introgreen.eu/selector-de-plantas)
+
+**Status:** Photo-based recommendations are currently in beta.
+
 ### Magento / Adobe Commerce
 
 The storefronts run on a customized Magento/Adobe Commerce architecture with localized storeviews, product attributes, category structures, search integrations and marketplace-ready product data.
@@ -105,7 +127,8 @@ Highlighted repositories:
 
 - **[Introgreen/introgreen](https://github.com/Introgreen/introgreen)** — public Introgreen organization profile and technical overview
 - **[Introgreen/plantcoach](https://github.com/Introgreen/plantcoach)** — public overview of the Introgreen Plantcoach
-
+- **[Introgreen/plant-finder](https://github.com/Introgreen/plant-finder)** — AI-powered plant recommendations with room photo analysis, location selection and Magento 2 product integration.
+- 
 ## Collaboration
 
 Introgreen welcomes technical discussions around e-commerce automation, plant product data, multilingual content workflows, marketplace integrations and AI-assisted commerce tools.
